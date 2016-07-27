@@ -6395,9 +6395,9 @@ input[type="checkbox"].cbRequired{
     margin-left: auto;
     margin-right: auto;
     text-align:center;
-    color:white;
+    color:000;
     border: dotted 1px #999;
-    background-color: #F4777D;
+    background-color:transparent;
 }
 
 .pageTitleParagraph{
