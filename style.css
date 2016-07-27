@@ -385,7 +385,7 @@ li.main {
 }
 
 .magicImport .jqiclose {
-    background-image: url("../images/icons/close-24.png") !important;
+    background-image: url("https://netigate.se/images/icons/close-24.png") !important;
 }
 
 .magicImport button, .magicImport input[type=button], .jqibutton {
@@ -792,7 +792,7 @@ li.edit-li {
     width: 20px;
     height: 20px;
     background-image: none;
-    background-image: url("../images/createIcons/use-upanddown_360.png");
+    background-image: url("https://netigate.se/images/createIcons/use-upanddown_360.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -828,7 +828,7 @@ ui-sortable-disabled .handle {
     font-size: 16px;
 }
 .handle:hover {
-    background-image: url("../images/createIcons/use-double-arrow-blue.png");
+    background-image: url("https://netigate.se/images/createIcons/use-double-arrow-blue.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor: move;
@@ -1000,7 +1000,7 @@ min-height: 37px;
     height: 100% !important;
     max-height: 100% !important;
     /*background-color:rgba(123, 196, 230, 0.5);*/
-    background-image: url('../images/transbg.png');
+    background-image: url('https://netigate.se/images/transbg.png');
     left: 0;
     top: 0;
     margin: 0;
@@ -1249,7 +1249,7 @@ min-height: 37px;
     margin-right: 5px;
     display: inline-block;
     cursor: pointer;
-    background-image: url('../images/del.png');
+    background-image: url('https://netigate.se/images/del.png');
 }
 
 #question_list_wrapper .divcreateitemtext {
@@ -1375,7 +1375,7 @@ min-height: 37px;
 }
 
 .del-button:hover {
-    background-image: url('../images/delr.png');
+    background-image: url('https://netigate.se/images/delr.png');
 }
 
 html, body {
@@ -1706,13 +1706,13 @@ color: #49a4d9 !important;
 
 .q-has-logic {
    
-    background-image: url("../images/icons/logic-on-page-white.png");
+    background-image: url("https://netigate.se/images/icons/logic-on-page-white.png");
     background-position: bottom center;
     background-repeat: no-repeat;
 }
 
     .q-has-logic.active-page {
-        background-image: url("../images/icons/logic-on-page.png");
+        background-image: url("https://netigate.se/images/icons/logic-on-page.png");
         background-position: bottom center;
         background-repeat: no-repeat;
         border-bottom-color: #49a4d9;
@@ -1733,7 +1733,7 @@ color: #49a4d9 !important;
 
 .question-has-logic {
     cursor: pointer;
-    background-image: url(https://netigate.se/images/icons/logic-green-24.png)!important;
+    background-image: url("https://netigate.se/images/icons/logic-green-24.png")!important;
     }
 
 .activePage {
@@ -2280,7 +2280,7 @@ h3, .question_desc {
     margin-left: -40px;
     top: -24px;
     cursor: pointer;
-    background-image: url('../svg/arrow-down.svg');
+    background-image: url('https://netigate.se/svg/arrow-down.svg');
     background-size: 35%;
     background-position: center;
     background-repeat: no-repeat;
@@ -4093,7 +4093,7 @@ form {
 }
 
 .dupeclose {
-    background-image: url("../images/icons/close-24.png");
+    background-image: url("https://netigate.se/images/icons/close-24.png");
     color: #BBBBBB;
     cursor: pointer;
     height: 24px;
