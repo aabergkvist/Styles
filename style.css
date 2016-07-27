@@ -6014,7 +6014,7 @@ input[type="checkbox"].cbRequired{
    line-height: 16px;
    padding: 20px 51px 20px 51px;
    background-color: #1795CC;
-   font-size: 15px !important;
+   font-size: 12px !important;
    font-family: 'lato', sans-serif;
    font-weight: 300;
    color: #fff;
@@ -6138,7 +6138,7 @@ input[type="checkbox"].cbRequired{
     margin: 0px;
     background-color: #fff;
     position:fixed;
-    z-index:1000;
+    z-index:998;
     top: 0px;
     width:100%;
     
