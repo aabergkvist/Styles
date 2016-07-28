@@ -9,7 +9,7 @@ color:#666;
 }
 
 #iHolder {
-    background: url("https://netigate.se/img/ifn.png");
+    background: url("https://netigate.se/nn8/img/ifn.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -385,7 +385,7 @@ li.main {
 }
 
 .magicImport .jqiclose {
-    background-image: url("https://netigate.se/images/icons/close-24.png") !important;
+    background-image: url("https://netigate.se/nn8/images/icons/close-24.png") !important;
 }
 
 .magicImport button, .magicImport input[type=button], .jqibutton {
@@ -792,7 +792,7 @@ li.edit-li {
     width: 20px;
     height: 20px;
     background-image: none;
-    background-image: url("https://netigate.se/images/createIcons/use-upanddown_360.png");
+    background-image: url("https://netigate.se/nn8/images/createIcons/use-upanddown_360.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -828,7 +828,7 @@ ui-sortable-disabled .handle {
     font-size: 16px;
 }
 .handle:hover {
-    background-image: url("https://netigate.se/images/createIcons/use-double-arrow-blue.png");
+    background-image: url("https://netigate.se/nn8/images/createIcons/use-double-arrow-blue.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor: move;
@@ -1000,7 +1000,7 @@ min-height: 37px;
     height: 100% !important;
     max-height: 100% !important;
     /*background-color:rgba(123, 196, 230, 0.5);*/
-    background-image: url("https://netigate.se/images/transbg.png");
+    background-image: url("https://netigate.se/nn8/images/transbg.png");
     left: 0;
     top: 0;
     margin: 0;
@@ -1142,7 +1142,7 @@ min-height: 37px;
 }
 
 .testclass2 {
-    background-image: url("images/sc-logo.gif");
+    background-image: url("https://netigate.se/nn8/images/sc-logo.gif");
 }
 
 .smaller {
@@ -1249,7 +1249,7 @@ min-height: 37px;
     margin-right: 5px;
     display: inline-block;
     cursor: pointer;
-    background-image: url("https://netigate.se/images/del.png");
+    background-image: url("https://netigate.se/nn8/images/del.png");
 }
 
 #question_list_wrapper .divcreateitemtext {
@@ -1375,7 +1375,7 @@ min-height: 37px;
 }
 
 .del-button:hover {
-    background-image: url("https://netigate.se/images/delr.png");
+    background-image: url("https://netigate.se/nn8/images/delr.png");
 }
 
 html, body {
@@ -1494,8 +1494,7 @@ html, body {
     background-color: darkorange;
 }
 
-.add-button {
-    
+.add-button {  
     overflow: hidden;
     clear: both;
     width: 150px;
@@ -1505,9 +1504,6 @@ html, body {
         overflow: hidden;
     }
 
-    .add-button:hover {
-        
-    }
 
 .settingsbartable tr td {
     vertical-align: middle;
@@ -1523,20 +1519,20 @@ input[type=checkbox] {
 #btn-preview {
     display: inline-block;
     position: absolute;
-bottom: 0px;
-right: 8px;
-width: 24px;
-height: 22px;
+    bottom: 0px;
+    right: 8px;
+    width: 24px;
+    height: 22px;
 }
 
 
 #btn-info {
     display: inline-block;
     position: absolute;
-bottom: 0px;
-right: 48px;
-font-size:16px;
-height:14px;
+    bottom: 0px;
+    right: 48px;
+    font-size:16px;
+    height:14px;
 }
 
 
@@ -1619,9 +1615,6 @@ line-height: 36px;
     /*width:120px;*/
 }
 
-.question-pagination {
-}
-
 #ulQPages, #ulPages {
     clear: both;
 }
@@ -1659,9 +1652,9 @@ line-height: 36px;
 
 .active-page {
     font-size: 14px !important;
-border: 2px solid #49a4d9;
-background-color: white !important;
-color: #49a4d9 !important;
+    border: 2px solid #49a4d9;
+    background-color: white !important;
+    color: #49a4d9 !important;
 }
 
 .liPage a {
@@ -1706,13 +1699,13 @@ color: #49a4d9 !important;
 
 .q-has-logic {
    
-    background-image: url("https://netigate.se/images/icons/logic-on-page-white.png");
+    background-image: url("https://netigate.se/nn8/images/icons/logic-on-page-white.png");
     background-position: bottom center;
     background-repeat: no-repeat;
 }
 
     .q-has-logic.active-page {
-        background-image: url("https://netigate.se/images/icons/logic-on-page.png");
+        background-image: url("https://netigate.se/nn8/images/icons/logic-on-page.png");
         background-position: bottom center;
         background-repeat: no-repeat;
         border-bottom-color: #49a4d9;
@@ -1733,7 +1726,7 @@ color: #49a4d9 !important;
 
 .question-has-logic {
     cursor: pointer;
-    background-image: url("https://netigate.se/images/icons/logic-green-24.png")!important;
+    background-image: url("https://netigate.se/nn8/nn8/images/icons/logic-green-24.png")!important;
     }
 
 .activePage {
@@ -2280,7 +2273,7 @@ h3, .question_desc {
     margin-left: -40px;
     top: -24px;
     cursor: pointer;
-    background-image: url("https://netigate.se/svg/arrow-down.svg");
+    background-image: url("https://netigate.se/nn8/nn8/svg/arrow-down.svg");
     background-size: 35%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2826,24 +2819,24 @@ litab-diasbled {
 
 .deleteq {
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/trashcan-grey.png");
-    background-image: url("https://netigate.se/images/icons/trashcan-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/trashcan-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/trashcan-grey-24.png")\9;
 }
 
     .deleteq:hover, .open-item .deleteq {
-        background-image: url("https://netigate.se/images/icons/trashcan.png");
-        background-image: url("https://netigate.se/images/icons/trashcan-24.png")\9;
+        background-image: url("https://netigate.se/nn8/images/icons/trashcan.png");
+        background-image: url("https://netigate.se/nn8/images/icons/trashcan-24.png")\9;
     }
 
 .copylink {
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/copy-grey.png");
-    background-image: url("https://netigate.se/images/icons/copy-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/copy-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/copy-grey-24.png")\9;
 }
 
     .copylink:hover, .open-item .copylink {
-        background-image: url("https://netigate.se/images/icons/copy.png");
-        background-image: url("https://netigate.se/images/icons/copy-24.png")\9;
+        background-image: url("https://netigate.se/nn8/images/icons/copy.png");
+        background-image: url("https://netigate.se/nn8/images/icons/copy-24.png")\9;
     }
 
 .editlink, #openpretext, #openendtext {
@@ -2852,14 +2845,14 @@ litab-diasbled {
     background-size: 24px;
     display: block;
     float: right;
-    background-image: url("https://netigate.se/images/icons/edit-grey.png");
-    background-image: url("https://netigate.se/images/icons/edit-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/edit-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/edit-grey-24.png")\9;
 }
 
     .editlink:hover, #openpretext:hover, #openendtext:hover, .open-item .editlink {
         background-size: 24px;
-        background-image: url("https://netigate.se/images/icons/edit.png");
-        background-image: url("https://netigate.se/images/icons/edit-24.png")\9;
+        background-image: url("https://netigate.se/nn8/images/icons/edit.png");
+        background-image: url("https://netigate.se/nn8/images/icons/edit-24.png")\9;
     }
 
 .btn2:hover {
@@ -2910,22 +2903,22 @@ litab-diasbled {
 
 .loglink {
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/add-logic-grey.png");
-    background-image: url("https://netigate.se/images/icons/add-logic-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic-grey-24.png")\9;
 }
 
 .mec-has-logic .loglink {
-    background-image: url("https://netigate.se/images/icons/logic-green-24.png") !important;
+    background-image: url("https://netigate.se/nn8/images/icons/logic-green-24.png") !important;
     }
 
     .mec-has-logic .loglink:hover {
-        background-image: url("https://netigate.se/images/icons/logic-blue-24.png") !important;
+        background-image: url("https://netigate.se/nn8/images/icons/logic-blue-24.png") !important;
         }
 
 .loglink:hover, .open-item .loglink, li_item:hover.loglink {
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/add-logic.png");
-    background-image: url("https://netigate.se/images/icons/add-logic-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic.png");
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic-24.png")\9;
 }
 
 .li_item:hover {
@@ -3432,16 +3425,16 @@ display: inline-block !important;
     margin-right: -6px;
     margin-left: 5px;
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/trashcan-grey.png");
-    background-image: url("https://netigate.se/images/icons/trashcan-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/trashcan-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/trashcan-grey-24.png")\9;
 }
 
     .logic-question-btn-delete:hover, .question_title:hover .logic-question-btn-delete {
         width: 24px;
         height: 24px;
         background-size: 24px;
-        background-image: url("https://netigate.se/images/icons/trashcan.png");
-        background-image: url("https://netigate.se/images/icons/trashcan-24.png")\9;
+        background-image: url("https://netigate.se/nn8/images/icons/trashcan.png");
+        background-image: url("https://netigate.se/nn8/images/icons/trashcan-24.png")\9;
     }
 
 .logic-question-btn {
@@ -3450,16 +3443,16 @@ display: inline-block !important;
     width: 24px;
     height: 24px;
     background-size: 24px;
-    background-image: url("https://netigate.se/images/icons/add-logic-grey.png");
-    background-image: url("https://netigate.se/images/icons/add-logic-grey-24.png")\9;
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic-grey.png");
+    background-image: url("https://netigate.se/nn8/images/icons/add-logic-grey-24.png")\9;
 }
 
     .logic-question-btn:hover, .question_title:hover .logic-question-btn {
         width: 24px;
         height: 24px;
         background-size: 24px;
-        background-image: url("https://netigate.se/images/icons/add-logic.png");
-        background-image: url("https://netigate.se/images/icons/add-logic-24.png")\9;
+        background-image: url("https://netigate.se/nn8/images/icons/add-logic.png");
+        background-image: url("https://netigate.se/nn8/images/icons/add-logic-24.png")\9;
     }
 
 .imagerow td {
@@ -3651,7 +3644,7 @@ line-height: 30px;
 }
 /*panels*/
 #inp-search {
-    background: url("https://netigate.se/images/icons/search-24.png") no-repeat scroll 2px 2px;
+    background: url("https://netigate.se/nn8/images/icons/search-24.png") no-repeat scroll 2px 2px;
     padding-left: 30px;
     float: right;
 }
@@ -3717,7 +3710,7 @@ line-height: 30px;
     background-color: #49a4d9;
     cursor: pointer;
     color: white;
-    background-image: url("https://netigate.se/images/edit-white-24.png");
+    background-image: url("https://netigate.se/nn8/images/edit-white-24.png");
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -4093,7 +4086,7 @@ form {
 }
 
 .dupeclose {
-    background-image: url("https://netigate.se/images/icons/close-24.png");
+    background-image: url("https://netigate.se/nn8/images/icons/close-24.png");
     color: #BBBBBB;
     cursor: pointer;
     height: 24px;
@@ -4269,7 +4262,7 @@ table {
     -webkit-box-shadow: 5px 5px 15px 1px #ADADAD;
     box-shadow: 5px 5px 15px 1px #ADADAD;
     -webkit-backface-visibility: hidden;
-    background-image: url("https://netigate.se/images/paper.png");
+    background-image: url("https://netigate.se/nn8/images/paper.png");
     color: #49a4d9;
     font-size: 44px;
     line-height:44px;
@@ -4285,7 +4278,7 @@ table {
     vertical-align: middle;
     display: table-cell;
     width: 450px;
-    background-image: url("https://netigate.se/images/mail-respondents-bg.png");
+    background-image: url("https://netigate.se/nn8/images/mail-respondents-bg.png");
     background-repeat: no-repeat;
     height: 263px;
     background-position: center center;
@@ -4296,7 +4289,7 @@ table {
     vertical-align: middle;
     display: table-cell;
     width: 450px;
-    background-image: url("https://netigate.se/images/sms-respondents-bg.png");
+    background-image: url("https://netigate.se/nn8/images/sms-respondents-bg.png");
     background-repeat: no-repeat;
     height: 263px;
     background-position: center center;
@@ -4307,7 +4300,7 @@ table {
     vertical-align: middle;
     display: table-cell;
     width: 450px;
-    background-image: url("https://netigate.se/images/logins-respondents-bg.png");
+    background-image: url("https://netigate.se/nn8/images/logins-respondents-bg.png");
     background-repeat: no-repeat;
     height: 263px;
     background-position: center center;
@@ -4449,7 +4442,7 @@ line-height: 28px;
 }
 
 #sumDivHolder {
-    background-image: url("https://netigate.se/images/paper.png");
+    background-image: url("https://netigate.se/nn8/images/paper.png");
     margin: 20px auto 0 auto;
     width: 650px;
 }
@@ -4555,7 +4548,7 @@ line-height: 28px;
     box-shadow: 5px 5px 15px 1px #ADADAD;
     -webkit-backface-visibility: hidden;
 
-    background-image: url("https://netigate.se/images/paper.png");
+    background-image: url("https://netigate.se/nn8/images/paper.png");
     margin-top: 25px;
 }
 
@@ -4672,19 +4665,19 @@ select {
 }
 
 .General {
-    background-image: url("https://netigate.se/img/links.png");
+    background-image: url("https://netigate.se/nn8/img/links.png");
 }
 .Facebook {
-    background-image: url("https://netigate.se/img/Facebook-icon.png");
+    background-image: url("https://netigate.se/nn8/img/Facebook-icon.png");
 }
 .Twitter {
-    background-image: url("https://netigate.se/img/Twitter-icon.png");
+    background-image: url("https://netigate.se/nn8/img/Twitter-icon.png");
 }
 .LinkedIn {
-    background-image: url("https://netigate.se/img/LinkedIn-icon.png");
+    background-image: url("https://netigate.se/nn8/img/LinkedIn-icon.png");
 }
 .Google {
-    background-image: url("https://netigate.se/img/googleplus-icon.png");
+    background-image: url("https://netigate.se/nn8/img/googleplus-icon.png");
 }
 iframe {
     border-width:0px;
@@ -4777,14 +4770,14 @@ border-radius:4px;
     padding-right: 24px;
     background-position: right;
     background-repeat: no-repeat !important;
-    background-image: url("https://netigate.se/images/icons/arrow-down-24b.png")!important;
+    background-image: url("https://netigate.se/nn8/images/icons/arrow-down-24b.png")!important;
     background-position: right 10px center !important;
 }
 .vis {
     padding-right:24px;
     background-position:right;
     background-repeat:no-repeat!important;
-    background-image: url("https://netigate.se/images/icons/arrow-up-24b.png")!important;
+    background-image: url("https://netigate.se/nn8/images/icons/arrow-up-24b.png")!important;
     background-position: right 10px center;
 }
 #qis {
@@ -5600,7 +5593,7 @@ float:left;
 }
 
 #newUserCreate1{
-    background-image: url("https://netigate.se/images/Overlays/customersatisfactionsurvey_480.jpg");
+    background-image: url("https://netigate.se/nn8/images/Overlays/customersatisfactionsurvey_480.jpg");
     cursor:pointer;
     height:200px;
     background-size: contain;
@@ -5608,21 +5601,21 @@ float:left;
 
 #newUserCreate2{
     cursor:pointer;
-    background-image: url("https://netigate.se/images/Overlays/employeeengagement_480.jpg");
+    background-image: url("https://netigate.se/nn8/images/Overlays/employeeengagement_480.jpg");
     height:200px;
     background-size: contain;
 }
 
 #newUserCreate3{
     cursor:pointer;
-    background-image: url("https://netigate.se/images/Overlays/netpromoterscore_480.jpg");
+    background-image: url("https://netigate.se/nn8/images/Overlays/netpromoterscore_480.jpg");
     height:200px;
     background-size: contain;
 }
 
 #newUserCreate4{
     cursor:pointer;
-    background-image: url("https://netigate.se/images/Overlays/brandresearch_480.jpg");
+    background-image: url("https://netigate.se/nn8/images/Overlays/brandresearch_480.jpg");
     height:200px;
     background-size: contain;
 }
@@ -5650,7 +5643,7 @@ float:left;
     margin-right:auto;
 
     cursor: pointer;
-    background-image: url("https://netigate.se/images/Overlays/startscratch.png");
+    background-image: url("https://netigate.se/nn8/images/Overlays/startscratch.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -5919,7 +5912,7 @@ input[type="checkbox"].cbRequired{
  
  .copyQuestionUp{
     
-     background-image: url("https://netigate.se/images/createIcons/use-add-hover.png");
+     background-image: url("https://netigate.se/nn8/images/createIcons/use-add-hover.png");
      background-size: contain;
      background-repeat: no-repeat;
      width: 18px;
@@ -5933,13 +5926,12 @@ input[type="checkbox"].cbRequired{
  }
  
   .copyQuestionUp:hover{
-    background-image: url("https://netigate.se/images/createIcons/USE-add.png");
+    background-image: url("https://netigate.se/nn8/images/createIcons/USE-add.png");
      
  }
  
   .copyQuestionDown{
-     background-image: url("https://netigate.se/images/createIcons/use-add-hover.png");
-     url(https://netigate.se/images/createIcons/use-add-hover.png);
+     background-image: url("https://netigate.se/nn8/images/createIcons/use-add-hover.png");
      background-size: contain;
      background-repeat: no-repeat;
      width: 18px;
@@ -5953,11 +5945,11 @@ input[type="checkbox"].cbRequired{
  
  .copyQuestionDown:hover{
     
-      background-image: url("https://netigate.se/images/createIcons/USE-add.png");
+      background-image: url("https://netigate.se/nn8/images/createIcons/USE-add.png");
  }
  
  .deleteQuestion{
-     background-image: url("https://netigate.se/images/createicons/USE-garbage-2.png");
+     background-image: url("https://netigate.se/nn8/images/createicons/USE-garbage-2.png");
      background-size: contain;
      background-repeat: no-repeat;
      width: 18px;
@@ -5969,12 +5961,12 @@ input[type="checkbox"].cbRequired{
  }
  
  .deleteQuestion:hover{
-     background-image: url("https://netigate.se/images/createIcons/use-garbage-hover.png");
+     background-image: url("https://netigate.se/nn8/images/createIcons/use-garbage-hover.png");
      
  }
  
  .deletePage{
-     background-image: url("https://netigate.se/images/createicons/USE-garbage-2.png");
+     background-image: url("https://netigate.se/nn8/images/createicons/USE-garbage-2.png");
      background-size: contain;
      background-repeat: no-repeat;
      width: 18px;
@@ -5986,7 +5978,7 @@ input[type="checkbox"].cbRequired{
  }
  
  .deletePage:hover{
-     background-image: url("https://netigate.se/images/createIcons/use-garbage-hover.png");
+     background-image: url("https://netigate.se/nn8/images/createIcons/use-garbage-hover.png");
      
  }
  
@@ -6279,18 +6271,16 @@ input[type="checkbox"].cbRequired{
 
 
 #wrapper {
-   clear: both;
+    clear: both;
     background-color: #f2f5f8;
-
-
-   width: 100%;
-   padding: 0;
-   text-align: left;
-   position: relative;
-   outline-color: #49a4d9 ;
-   outline-width: 5000px;
-   outline-style: solid;
-   min-height: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    outline-color: #49a4d9 ;
+    outline-width: 5000px;
+    outline-style: solid;
+    min-height: 100%;
 }
 
 
@@ -6390,7 +6380,6 @@ input[type="checkbox"].cbRequired{
 
 .pageTitle{
     min-height: 100px;
-    
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -6436,7 +6425,6 @@ input[type="checkbox"].cbRequired{
     height:50px;
     width:25%;
     color:black;
-
     background-color: #f2f5f8;
     text-align: center;
     cursor:pointer;
@@ -6447,7 +6435,6 @@ input[type="checkbox"].cbRequired{
     color: white;
     cursor: auto;
     position: relative;
-
 }
 
 #navHolder{
@@ -6465,6 +6452,7 @@ input[type="checkbox"].cbRequired{
     right:0px;
     background-color: #f2f5f8;
 }
+
 #triangle{
     width: 0;
     height: 0;
@@ -6590,7 +6578,6 @@ input[type=checkbox]{
 
 
 input.settingscheckbox {
-
     vertical-align:middle;
 }
 
@@ -6614,7 +6601,7 @@ input.settingscheckbox {
 }
 
 .matrixRowHighlighted{
-    background-color: #85A5CC  !important;
+    background-color: #85A5CC!important;
 }
 
 .addColumnButton{
@@ -6634,7 +6621,7 @@ input.settingscheckbox {
 }
 
 .cbWeight{
-    vertical-align:middle !important;
+    vertical-align: middle!important;
 }
 
 .addColumnButton{
@@ -6650,7 +6637,6 @@ input.settingscheckbox {
 }
 
 #previewParagraph{
-
     text-align: center;
     font-size: 26px;
     padding-top:70px;
@@ -6685,9 +6671,6 @@ input.settingscheckbox {
     width:100%;
     height:100%;
 }
-.tdCreateHeaderOption{
-
-}
 
 .tdCreateArrow{
     width:10%;
@@ -6701,7 +6684,6 @@ input.settingscheckbox {
 }
 
 #logoContainer{
-
     height:40px;
     vertical-align:top;
 }
