@@ -4,6 +4,7 @@ span {
 h4 {
 color:#666;
 }
+
 .answer p {
     display: inline;
 }
@@ -5582,7 +5583,7 @@ float:left;
     width: 700px;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 100px;
+    margin-top: 60px;
     border-collapse: separate;
     border-spacing: 20px;
 }
@@ -5592,33 +5593,30 @@ float:left;
     background-color: white;
 }
 
-#newUserCreate1{
-    background-image: url("https://netigate.se/nn8/images/Overlays/customersatisfactionsurvey_480.jpg");
+#newUserCreate1,
+#newUserCreate2,
+#newUserCreate3,
+#newUserCreate4 {
     cursor:pointer;
     height:200px;
     background-size: contain;
 }
+    #newUserCreate1{
+        background-image: url("https://netigate.se/nn8/images/Overlays/customersatisfactionsurvey_480.jpg");
+    }
 
-#newUserCreate2{
-    cursor:pointer;
-    background-image: url("https://netigate.se/nn8/images/Overlays/employeeengagement_480.jpg");
-    height:200px;
-    background-size: contain;
-}
+    #newUserCreate2{
+        background-image: url("https://netigate.se/nn8/images/Overlays/employeeengagement_480.jpg");
+    }
 
-#newUserCreate3{
-    cursor:pointer;
-    background-image: url("https://netigate.se/nn8/images/Overlays/netpromoterscore_480.jpg");
-    height:200px;
-    background-size: contain;
-}
+    #newUserCreate3{
+        background-image: url("https://netigate.se/nn8/images/Overlays/netpromoterscore_480.jpg");
+    }
 
-#newUserCreate4{
-    cursor:pointer;
-    background-image: url("https://netigate.se/nn8/images/Overlays/brandresearch_480.jpg");
-    height:200px;
-    background-size: contain;
-}
+    #newUserCreate4{
+        background-image: url("https://netigate.se/nn8/images/Overlays/brandresearch_480.jpg");
+    }
+
 
 #newUserTitleDiv{
     text-align: center;
@@ -5627,8 +5625,8 @@ float:left;
 
 #newUserMainTitle{
     font-weight: bold;
-    font-size: 36px;
-    
+    font-size: 19px;
+    padding-top: 20px;
 }
 
 #newUserDescription{
@@ -6665,6 +6663,7 @@ input.settingscheckbox {
     color:white;
     margin:0px;
     display: inline-block;
+    padding: 0 20px 0 20px;
 }
 
 .createHeaderOptionsTable{
@@ -6743,12 +6742,13 @@ input.settingscheckbox {
     color:white;
     margin: 0px;
     font-size:12px;
+    padding-left: 10px;
 }
 
 .surveyEditIcon{
     width:10px;
     height:10px;
-    margin-left:5px;
+    margin-left:10px;
     cursor: pointer;
 }
 
@@ -6766,9 +6766,9 @@ input.settingscheckbox {
 }
 
 #ntgtlogo2{
-    width:30px;
-    height:30px;
-    margin-right:5px;
+    width: auto;
+    height: 30px;
+    margin-right: 5px;
     cursor: pointer;
 }
 
