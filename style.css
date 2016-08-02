@@ -833,7 +833,13 @@ li.edit-li {
     margin-bottom:20px;
 }
 
-.textedit-popover,
+.textedit-popover {
+    z-index: 999;
+    padding: 30px;
+    background-color: white;
+}
+
+
 .quick-logic {
     z-index: 999;
     padding: 5px;
@@ -2890,6 +2896,14 @@ li_item:hover.loglink {
 
 #toolbox {
     z-index: 999999!important;
+    width: 373px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: right;
+    margin-left: 36px;
+    background-color: #fff;
 }
 
 .item_settings {
