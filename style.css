@@ -4459,7 +4459,11 @@ form {
 }
 
 select {
-    margin-right: 4px !important;
+    margin-right: 4px!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
 }
 
 select#ft {
@@ -4471,6 +4475,7 @@ select#ft {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    color: #fff;
 }
 
 .blocked {
