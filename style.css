@@ -5996,7 +5996,7 @@ input[type="checkbox"].cbRequired {
 .changeMatrixQicon,
 .changeSliderQicon,
 .changeNPSQIcon,
-.changeMultipleChoiceQIcon.qIcon {
+img.changeMultipleChoiceQIcon {
     width: 40%;  
 }
 
