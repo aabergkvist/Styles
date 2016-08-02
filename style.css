@@ -4462,7 +4462,7 @@ select {
     margin-right: 4px !important;
 }
 
-.select#ft {
+select#ft {
     background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
     background-color: #3b8ec2;
     height: 29px;
