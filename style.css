@@ -6495,6 +6495,29 @@ input.settingscheckbox {
     cursor: pointer;
 }
 
+.changeDropdownQicon{
+    width:40%;
+}
+
+.changeTextboxQicon{
+    width:40%;
+}
+
+.previewEditContainer{
+    overflow:hidden;
+    margin-left:10px;
+}
+
+.editTitleTextboxPreview{
+    font-family: 'lato', sans-serif;
+    min-height:25px;
+    min-width: 50px;
+    padding: 0;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 24px;
+}
+
 /* Foundation Grid System */
 
 .row {
