@@ -1463,7 +1463,6 @@ ui-sortable-disabled .handle {
 
 .matrix-table {
     overflow: auto;
-    width: 100%;
 }
 
 .sort-row {
@@ -5416,10 +5415,6 @@ background-color: #fff;
         margin-top: 2.5px;
         margin-bottom: 2.5px;
         font-family: 'lato', sans-serif;
-    }
-
-    #createMatrixHeaderPreview {
-        width: 100%;
     }
 
 #newUserCreateHolder {
