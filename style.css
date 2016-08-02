@@ -2817,6 +2817,7 @@ line-height: 36px;
 
 .matrix-preview td {
     overflow: hidden;
+    width: 100%;
 }
 
 .jqibutton,
@@ -5418,6 +5419,10 @@ background-color: #fff;
         font-family: 'lato', sans-serif;
     }
 
+    #createMatrixHeaderPreview {
+        width: 100%;
+    }
+
 #newUserCreateHolder {
     width: 700px;
     margin-left:auto;
@@ -5994,7 +5999,8 @@ input[type="checkbox"].cbRequired {
 
 .changeMatrixQicon,
 .changeSliderQicon,
-.changeNPSQIcon {
+.changeNPSQIcon,
+.changeMultipleChoiceQIcon.qIcon {
     width: 40%;  
 }
 
