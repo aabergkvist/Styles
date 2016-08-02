@@ -5389,7 +5389,8 @@ background-color: #fff;
 #test4Preview,
 #test5Preview,
 #test6Preview {
-    height:90px;
+    height: 90px;
+    width: 100%;
 }
 
 #createTextHeaderPreview,
