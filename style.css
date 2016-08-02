@@ -836,6 +836,8 @@ li.edit-li {
 .textedit-popover {
     z-index: 999;
     background-color: #fff;
+    margin-left: 28px;
+    margin-top: 28px;
 }
 
 #toolbox {
