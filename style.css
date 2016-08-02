@@ -6361,11 +6361,11 @@ input.settingscheckbox {
 }
 
 .pageTitleParagraph:hover {
-    background-color: #49a4d9;
+    cursor: text;
 }
 
 .pageDescriptionParagraph:hover {
-    background-color: #49a4d9;
+    cursor: text;
 }
 
 #createQuestionArrowContainer {
