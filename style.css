@@ -836,7 +836,6 @@ li.edit-li {
 .textedit-popover {
     z-index: 999;
     background-color: #fff;
-    margin-left: 28px;
     margin-top: 28px;
 }
 
@@ -4690,6 +4689,7 @@ iframe {
 
 .cbTextInput {
     margin-right: 5px;
+    padding: 8px 90px;
 }
 
 .btn {
