@@ -836,9 +836,20 @@ li.edit-li {
 .textedit-popover {
     z-index: 999;
     padding: 30px;
-    background-color: white;
+    background-color: #fff;
 }
 
+#toolbox {
+    z-index: 999999;
+    width: 373px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    float: right;
+    margin-left: 36px;
+    background-color: #fff;
+}
 
 .quick-logic {
     z-index: 999;
@@ -2894,17 +2905,6 @@ li_item:hover.loglink {
         padding: 5px;
     }
 
-#toolbox {
-    z-index: 999999!important;
-    width: 373px;
-    overflow: hidden;
-    height: 30px;
-    line-height: 30px;
-    display: block;
-    float: right;
-    margin-left: 36px;
-    background-color: #fff;
-}
 
 .item_settings {
     display: none;
@@ -4654,17 +4654,6 @@ iframe {
     overflow: auto;
 }
 
-#toolbox {
-    background: #eee;
-    -moz-border-radius: 5px 5px 0 0;
-    -webkit-border-radius:  5px 5px 0 0;
-    border-radius:  5px 5px 0 0;
-    padding: 2px 2px 0 2px;
-    margin: -5px -5px 5px -5px;
-    display: none;
-    z-index: 99999;
-}
-
 #colorpalette { 
     border: 1px solid #b5b5b5;
     background-color: #EBEBEB;
@@ -4673,10 +4662,6 @@ iframe {
     max-width: 180px;
     display: none;
     z-index: 99999;
-}
-
-.textedit-popover {
-    border: 1px solid #ddd;
 }
 
 .rgb {
