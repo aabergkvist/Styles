@@ -6075,17 +6075,17 @@ img.changeMultipleChoiceQIcon {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    text-align:center;
-    color:#000;
-    background-color:transparent!important;
+    text-align: center;
+    color: #000;
+    background-color: transparent!important;
 }
 
 .pageTitleParagraph {
     font-size: 24px;
     margin: 0px auto;
-    padding-top: 10px 0 10px 0;
+    padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
-    width: 45%;
+    width: 70%;
 }
 
 .pageDescriptionParagraph {
@@ -6093,7 +6093,7 @@ img.changeMultipleChoiceQIcon {
     margin:0px auto;
     padding-top:10px;
     border-bottom: 1px dotted #999;
-    width: 70%;
+    width: 50%;
 }
 
 #navNetigateMenu {
