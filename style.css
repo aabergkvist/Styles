@@ -836,8 +836,8 @@ li.edit-li {
 .textedit-popover {
     z-index: 999;
     background-color: #fff;
-    margin-top: 28px;
-    margin-left: 39px;
+    margin-top: 32px;
+    margin-left: 48px;
 }
 
 #toolbox {
@@ -2333,6 +2333,9 @@ line-height: 36px;
 .cbTextInput {
     background-color: white;
     color: #333;
+    margin-right: 5px;
+    padding: 8px 90px;
+    width: 400px!important;
 }
 
 /* Css for text-editor elements */
@@ -4686,11 +4689,6 @@ iframe {
     width: 16px; 
     height: 16px; 
     margin: 1px;
-}
-
-.cbTextInput {
-    margin-right: 5px;
-    padding: 8px 90px;
 }
 
 .btn {
