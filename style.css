@@ -6010,6 +6010,10 @@ input[type="checkbox"].cbRequired {
     color: white;
 }
 
+.changeMultipleChoiceQicon {
+    width: 40%;
+}
+
 .changeMatrixQicon,
 .changeSliderQicon,
 .changeNPSQIcon,
