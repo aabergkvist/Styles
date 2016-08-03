@@ -648,11 +648,11 @@ div.logo {
     box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 
-/* Checkbox */
-
 .itemholder {
     min-height: 125px;
-    overflow: auto;
+    margin: 0;
+    position: relative;
+    overflow: visible;
 }
 
 .right a img {
@@ -999,6 +999,7 @@ ui-sortable-disabled .handle {
     color: #444;
     min-height: 20px;
     min-width: 55px;
+    font-size: 14px;
 }
 
 .li-lang {
@@ -2008,16 +2009,6 @@ line-height: 36px;
     border-bottom-color: #0071a2!important;
 }
 
-#footer {
-    clear: both;
-    margin: 0;
-    text-align: center;
-    font-size: 12px;
-    margin-left: 60px;
-    bottom: 0;
-    background-color: transparent;
-}
-
 .buttonHolderItem {
     margin-left: 10px;
     float: right;
@@ -2304,10 +2295,6 @@ line-height: 36px;
 
 #community-icon {
     margin-left: 20px;
-}
-
-.question-desc {
-    font-size: 14px;
 }
 
 .item_list {
@@ -2619,12 +2606,6 @@ line-height: 36px;
 .addspan {
     display: block;
     clear: both;
-}
-
-.itemholder {
-    margin: 0;
-    position: relative;
-    overflow: visible;
 }
 
 .pane1 {
@@ -5825,7 +5806,7 @@ input[type="checkbox"].cbRequired {
 }
 
 .editable-text-holder {
-    min-width: 150px;
+    min-width: 50px;
     min-height: 35px;
     font-family: 'lato', sans-serif;
     cursor: pointer;
@@ -5975,14 +5956,14 @@ input[type="checkbox"].cbRequired {
     border: 1px solid #fff;
 }
 
-#card{
-    height:200px;
+#card {
+    height: 200px;
     background-color: orange;
 }
 
 .front,
 .back {
-    height:160px;
+    height: 160px;
 }
 
 .backsettingstable {
@@ -6507,20 +6488,20 @@ input.settingscheckbox {
     cursor: pointer;
 }
 
-.changeDropdownQicon{
+.changeDropdownQicon {
     width:40%;
 }
 
-.changeTextboxQicon{
+.changeTextboxQicon {
     width:40%;
 }
 
-.previewEditContainer{
+.previewEditContainer {
     overflow:hidden;
     margin-left:10px;
 }
 
-.editTitleTextboxPreview{
+.editTitleTextboxPreview {
     font-family: 'lato', sans-serif;
     min-height:25px;
     min-width: 50px;
