@@ -1337,7 +1337,7 @@ ui-sortable-disabled .handle {
     background-image: url("https://netigate.se/nn8/images/del.png");
 }
 
-#question_list_wrapper .divcreateitemtext {
+.divcreateitemtext {
     padding: 15px;
     text-align: center;
 }
@@ -2176,17 +2176,6 @@ line-height: 36px;
     display: none;
     float: right;
     height: 200px;
-}
-
-.question_list_wrapper {
-    width: 100%;
-    clear: both;
-    overflow: visible;
-    background-color: #f3f3f3;
-    border-top-color: #dadada;
-    border-top-style: solid;
-    border-top-width: 1px;
-    padding-bottom: 10px;
 }
 
 .createpopup {
@@ -5797,12 +5786,13 @@ input[type="checkbox"].cbRequired {
 /* QuestionBox */
 
 .question_list_wrapper {
-    width: 100%;
+    width: 97%;
     clear: both;
-    box-shadow: 1px 1px 1px #999;
     overflow: visible;
     border-top: none;
     padding-bottom: 10px;
+    padding: 15px;
+    text-align: center;
 }
 
 .editable-text-holder {
@@ -5812,18 +5802,6 @@ input[type="checkbox"].cbRequired {
     cursor: pointer;
 }
 
-.question_list_wrapper {
-    width: 100%;
-    clear: both;
-    box-shadow: none;
-    overflow: visible;
-    border-top-color: #f8dcce;
-    border-top-style: solid;
-    border-top-width: 1px;
-    padding-bottom: 10px;
-}
-
-.question_list_wrapper,
 #surveyinfocenterdiv {
     background-color: transparent;
 }
@@ -6011,7 +5989,6 @@ img.changeMultipleChoiceQIcon {
     min-height: 100%;
 }
 
-.question_list_wrapper,
 #surveyinfocenterdiv {
     background-color: #f2f5f8;
     border:none;
@@ -6093,12 +6070,6 @@ img.changeMultipleChoiceQIcon {
 
 #textboxIcon {
     cursor:pointer;
-}
-
-#question_list_wrapper {
-    width: 80%;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 .pageTitle {
@@ -6369,6 +6340,7 @@ input.settingscheckbox {
     margin: 0px;
     display: inline-block;
     padding: 0 20px 0 20px;
+    margin-top: 3px;
 }
 
 .createHeaderOptionsTable {
@@ -6397,7 +6369,7 @@ input.settingscheckbox {
 }
 
 #logotd {
-    width: 10%;
+    width: 6%;
     padding: 0px;
 }
 
@@ -6434,7 +6406,7 @@ input.settingscheckbox {
 }
 
 .createOptionArrowImg {
-    height: 20px;
+    height: 25px;
     width: 20px;
     display: inline-block;
 }
