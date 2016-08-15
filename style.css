@@ -44,6 +44,16 @@ h4 {
     height: 578px;
 }
 
+
+#ntgtHolder{
+    position: fixed;
+    z-index:50;
+    text-align: center;
+    background-color:white;
+    width:100%;
+    text-align:center;
+}
+
 /* HELP  */
 
 .faqHeader,
@@ -1640,7 +1650,7 @@ input[type=checkbox] {
 }
 
 #pageholder {
-    margin-top: -10px;
+    
     margin-bottom:200px;
 }
 
@@ -5481,7 +5491,7 @@ background-color: #fff;
 #pagesDiv {
     width: 100%;
     height: 47px;
-    margin-bottom:70px;
+    
 }
 
 .liPages {
@@ -6031,7 +6041,7 @@ img.changeMultipleChoiceQIcon {
 #newContent {
     margin: auto;
     width: 80%;
-    margin-top: -55px;
+
 }
 
 #createHeader {
@@ -7226,4 +7236,3 @@ input.settingscheckbox {
     margin-left: 0;
     margin-right: 0;
     float: left; } }
-
