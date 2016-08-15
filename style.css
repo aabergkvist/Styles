@@ -6347,13 +6347,6 @@ input.settingscheckbox {
     text-align: center;
 }
 
-.pageTitleParagraph:hover {
-    cursor: text;
-}
-
-.pageDescriptionParagraph:hover {
-    cursor: text;
-}
 
 #createQuestionArrowContainer {
     display: inline-block;
@@ -6366,6 +6359,7 @@ input.settingscheckbox {
     display: inline-block;
     padding: 0 20px 0 20px;
     margin-top: 3px;
+	cursor: pointer;
 }
 
 .createHeaderOptionsTable {
