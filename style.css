@@ -46,12 +46,12 @@ h4 {
 
 
 #ntgtHolder{
-    position: fixed;
-    z-index:50;
-    text-align: center;
-    background-color:white;
-    width:100%;
-    text-align:center;
+	position: fixed;
+	z-index:50;
+	text-align: center;
+	background-color:white;
+	width:100%;
+	text-align:center;
 }
 
 /* HELP  */
@@ -5422,6 +5422,7 @@ background-color: #fff;
 #previewListItem {
     height:175px;
     background-color: white;
+	cursor: auto;
 }
 
 #newUserCreate1,
@@ -5564,7 +5565,7 @@ background-color: #fff;
 }
 
 .createQuestionHover{
-    background-color: blue;
+	background-color: blue;
 }
 
 .settingsheader {
@@ -6106,8 +6107,8 @@ img.changeMultipleChoiceQIcon {
     padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
     width: 70%;
-    cursor: pointer;
-    line-height: 28px;
+	cursor: pointer;
+	line-height: 28px;
 }
 
 .pageDescriptionParagraph {
@@ -6116,7 +6117,7 @@ img.changeMultipleChoiceQIcon {
     padding-top:10px;
     border-bottom: 1px dotted #999;
     width: 50%;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 #navNetigateMenu {
@@ -7243,3 +7244,4 @@ input.settingscheckbox {
     margin-left: 0;
     margin-right: 0;
     float: left; } }
+
