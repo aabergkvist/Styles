@@ -2668,7 +2668,7 @@ line-height: 36px;
     padding-bottom: 5px;
     clear: both;
     width: 100%;
-    height: 100%;
+   
     text-align: left;
     float: left;
     display: inline-block;
@@ -5563,6 +5563,10 @@ background-color: #fff;
     z-index:1;
 }
 
+.createQuestionHover{
+    background-color: blue;
+}
+
 .settingsheader {
     margin-top:0px;
     color:white;
@@ -6102,6 +6106,8 @@ img.changeMultipleChoiceQIcon {
     padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
     width: 70%;
+    cursor: pointer;
+    line-height: 28px;
 }
 
 .pageDescriptionParagraph {
@@ -6110,6 +6116,7 @@ img.changeMultipleChoiceQIcon {
     padding-top:10px;
     border-bottom: 1px dotted #999;
     width: 50%;
+    cursor: pointer;
 }
 
 #navNetigateMenu {
