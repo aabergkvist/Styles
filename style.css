@@ -6122,7 +6122,7 @@ img.changeMultipleChoiceQIcon {
 
 .pageDescriptionParagraph {
     font-size: 14px;
-    margin:0px auto;
+    margin: 3px auto;
     border-bottom: 1px dotted #999;
     width: 50%;
 	cursor: pointer;
@@ -6135,6 +6135,10 @@ img.changeMultipleChoiceQIcon {
     margin-right: auto;
     height: 100%;
     text-align: center;    
+}
+
+#createQuestionArrowContainer.img {
+    height: 80px;
 }
 
 #navNetigateMenuHolder {
