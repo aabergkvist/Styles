@@ -6116,6 +6116,7 @@ img.changeMultipleChoiceQIcon {
     border-bottom: 1px dotted #999;
 	cursor: pointer;
 	line-height: 28px;
+    float: left;
 }
 
 .pageDescriptionParagraph {
@@ -6124,6 +6125,7 @@ img.changeMultipleChoiceQIcon {
     border-bottom: 1px dotted #999;
     width: 50%;
 	cursor: pointer;
+    float: right;
 }
 
 #navNetigateMenu {
