@@ -246,6 +246,7 @@ body,
 form {
     height: 100%!important;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 14px;
     line-height: normal;
 }
@@ -290,6 +291,7 @@ table {
     font-weight: 800;
     color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     cursor: pointer;
     background-color: #409ad3;
     text-transform: uppercase;
@@ -443,8 +445,8 @@ li.main {
     border: 1px solid #ffffff;
     border-radius: 5px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
     font-weight: 200;
+    font-size: 16px;
     line-height: 18px;
     padding: 6px;
     color: #fff;
@@ -481,6 +483,7 @@ li.main {
     border: 1px solid white !important;
     font-weight: bold !important;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 12px;
     color: white !important;
     padding: 6px 24px;
@@ -693,7 +696,7 @@ label {
     background-color: #fff;
     display: inline-table;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 0.75em;
     color: #666;
     padding-right: 2px;
@@ -706,7 +709,7 @@ label {
     background-color: #fff;
     display: inline-table;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 200;
     font-size: 0.75em;
     color: #444;
     padding-right: 2px;
@@ -1090,6 +1093,7 @@ ui-sortable-disabled .handle {
 .li-panel {
     padding: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -1141,6 +1145,7 @@ ui-sortable-disabled .handle {
     padding: 10px;
     margin: 5px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 32px;
     border-radius: 4px;
     cursor: pointer;
@@ -1276,6 +1281,7 @@ ui-sortable-disabled .handle {
     -webkit-border-radius: 10px!important;
     border-radius: 10px!important;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
 .toggle-html:hover {
@@ -1742,7 +1748,6 @@ line-height: 36px;
 .question-pagination {
     display: inline-block;
     zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
-    *display: inline;
     vertical-align: bottom;
     margin: 5px 2px;
     outline: none;
@@ -1751,7 +1756,7 @@ line-height: 36px;
     text-decoration: none;
     font-size: 14px/100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold!important;
+    font-weight: 200;
     text-transform: uppercase;
     padding: 5px 6px;
     -webkit-border-radius: .5em;
@@ -3905,7 +3910,7 @@ form {
 .newDistributionContent,
 .jqimessage {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 16px;
     line-height: 20px;
     color: #48A3D9;
@@ -3916,6 +3921,7 @@ form {
     height: auto;
     vertical-align: bottom;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
     #dispatchName[readonly],
@@ -3964,7 +3970,7 @@ form {
 
 #titleTd {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 30px;
     line-height: 20px;
     color: #48A3D9;
@@ -4004,7 +4010,7 @@ form {
 
 .tColHeaders {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 800;
+    font-weight: 200;
     font-size: 12px;
     text-transform: uppercase;
     color: dimgrey;
@@ -4026,6 +4032,7 @@ form {
     text-decoration: underline;
     color: #409ad3;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
 #divLeft {
@@ -4135,6 +4142,7 @@ form {
         font-size: 18px;
         padding: 5px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 200;
         cursor: pointer;
         clear: both;
         float: left;
@@ -4145,6 +4153,7 @@ form {
         font-size: 18px;
         padding: 5px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 200;
         cursor: pointer;
         clear: both;
         float: left;
@@ -4162,6 +4171,7 @@ form {
     font-size: 18px;
     padding: 5px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -4646,6 +4656,7 @@ iframe {
     height: 87.5%;
     padding: 4px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 12px;
     overflow: auto;
 }
@@ -5396,6 +5407,7 @@ background-color: #fff;
     margin-bottom:29px;
     font-size: 18px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     width: 100%;
 }
 
@@ -5408,6 +5420,7 @@ background-color: #fff;
         margin-top: 2.5px;
         margin-bottom: 2.5px;
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 200;
     }
 
 #newUserCreateHolder {
@@ -5506,6 +5519,7 @@ background-color: #fff;
     text-decoration: none;
     font-size: 14px/100%;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     text-transform: uppercase;
     padding: 5px 6px;
     position:relative;
@@ -5520,23 +5534,19 @@ background-color: #fff;
 
 .liPagesFinalButton {
     display: inline-block;
-    vertical-align: bottom;
-    background-color: none;
-    outline: none;
     cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    font-size: 14px/100%;
     text-transform: uppercase;
     padding: 5px 6px;
     position: relative;
     z-index: 0;
     line-height: 12px;
     min-width: 10px;
-    font-size: 10px;
+    font-size: 12px;
     color: white;
-    background-color: #49a4d9 ;
+    background-color: none;
     margin-right: 3px;
+    margin-left: 70px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 200;
 }
@@ -5767,7 +5777,7 @@ input[type="checkbox"].cbRequired {
     text-align: center;
     text-decoration: none;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-weight: 200;
     text-transform: uppercase;
     padding: .5em .7em;
     -webkit-border-radius: .5em;
@@ -5782,8 +5792,6 @@ input[type="checkbox"].cbRequired {
     padding: 20px 51px 20px 51px;
     background-color: #1795CC;
     font-size: 12px !important;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
     color: #fff;
     box-shadow: 1px 1px 1px #999;
     webkit-box-shadow: 1px 1px 1px #999;
@@ -5818,6 +5826,7 @@ input[type="checkbox"].cbRequired {
     min-width: 50px;
     min-height: 35px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -6185,6 +6194,7 @@ img.changeMultipleChoiceQIcon {
 
 .matrixPreviewStatement {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     padding-top: 5px;
 }
 
@@ -6199,7 +6209,8 @@ img.changeMultipleChoiceQIcon {
 }
 
 .matrixPreviewOption {
-    ffont-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     padding-left: 20px;
 }
 
@@ -6207,6 +6218,7 @@ img.changeMultipleChoiceQIcon {
     width: 15%; 
     text-align: center;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
 .npsPreviewParagraph {
@@ -6230,12 +6242,14 @@ img.changeMultipleChoiceQIcon {
 
 .toptr p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 18px;
     color: black;
 }
 
 .matrixQuestionTitle {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     font-size: 18px;
     color: black;
 }
@@ -6508,6 +6522,7 @@ input.settingscheckbox {
 
 .editTitleTextboxPreview {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
     min-height:25px;
     min-width: 50px;
     padding: 0;
