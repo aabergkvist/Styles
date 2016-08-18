@@ -6102,6 +6102,7 @@ img.changeMultipleChoiceQIcon {
 
 .pageTitle {
     min-height: 100px;
+    max-width: 80%;
     width: 40%;
     float: left;
     text-align: center;
