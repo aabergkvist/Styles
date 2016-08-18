@@ -5521,13 +5521,12 @@ background-color: #fff;
 .liPagesFinalButton {
     display: inline-block;
     vertical-align: bottom;
-    background-color: #1795CA !important;
+    background-color: none;
     outline: none;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     font-size: 14px/100%;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     padding: 5px 6px;
     position: relative;
@@ -6267,6 +6266,8 @@ input[type=checkbox] {
 
 #pageBackbutton:before {
     content: '<<';
+    color: #FFF;
+    display: inline-block;
 }
 
 #pageBackbutton p {
@@ -6284,6 +6285,8 @@ input[type=checkbox] {
 
 #pageForwardbutton:after {
     content: '>>';
+    color: #FFF;
+    display: inline-block;
 }
 
 #pageForwardbutton p {
