@@ -6103,8 +6103,7 @@ img.changeMultipleChoiceQIcon {
 .pageTitle {
     min-height: 100px;
     width: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
     text-align: center;
     color: #000;
     background-color: transparent!important;
@@ -6112,10 +6111,9 @@ img.changeMultipleChoiceQIcon {
 
 .pageTitleParagraph {
     font-size: 24px;
-    margin: 0px auto;
+    margin: 0px auto 12px;
     padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
-    width: 70%;
 	cursor: pointer;
 	line-height: 28px;
 }
@@ -6123,7 +6121,6 @@ img.changeMultipleChoiceQIcon {
 .pageDescriptionParagraph {
     font-size: 14px;
     margin:0px auto;
-    padding-top:10px;
     border-bottom: 1px dotted #999;
     width: 50%;
 	cursor: pointer;
