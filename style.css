@@ -5994,7 +5994,7 @@ input[type="checkbox"].cbRequired {
 .changeSliderQicon,
 .changeNPSQIcon,
 img.changeMultipleChoiceQIcon {
-    width: 40%;  
+    width: 21%;  
 }
 
 .changeDropdownQicon,
@@ -6002,6 +6002,10 @@ img.changeMultipleChoiceQIcon {
 .tdIconBackButton {
     width: 50px;
     height: 50px; 
+}
+
+.backsettingstable {
+    font-size: 11px;
 }
 
 #wrapper {
