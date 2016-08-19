@@ -2520,7 +2520,7 @@ line-height: 36px;
     *End of Css for text-editor elements
     */
 .li_item {
-    cursor: move;
+    cursor: pointer;
 }
 
 .div-holder-log select, .div-holder-log input {
@@ -6146,7 +6146,7 @@ img.changeMultipleChoiceQIcon {
     text-align: center;    
 }
 
-#createQuestionArrowContainer.img {
+.newQuestionArrow {
     height: 80px;
 }
 
@@ -6344,6 +6344,10 @@ input[type=checkbox] {
     margin-right: 0px;
     padding-left: 47px;
 }
+
+.settingsTextHolder{
+    margin-top:10px;
+
 
 input.settingscheckbox {
     vertical-align: middle;
@@ -6563,6 +6567,35 @@ input.settingscheckbox {
     font-size: 18px;
     color: black;
     margin-bottom: 24px;
+}
+
+.editMatrixTitleTextboxPreview {
+    font-family: 'lato', sans-serif;
+    min-height:25px;
+    min-width: 50px;
+    padding: 0;
+    font-size: 12px;
+    color: black;
+}
+
+.matrixEditPreviewStatement{
+    
+    margin:0px;
+
+}
+
+.matrixEditPreviewStatement{
+    padding-bottom:10px;
+}
+
+
+#surveySettingsContainer{
+    position: fixed;
+    top:50px;
+    left:50px;
+    background:#1795CA;
+    opacity:0;
+    width:1000px;
 }
 
 /* Foundation Grid System */
