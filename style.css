@@ -6063,13 +6063,18 @@ img.changeMultipleChoiceQIcon {
     width: 100%;
     top: 25px;
     height: 100px;
-    background-color: white;
+    background-color: #f2f5f8;
     margin-bottom: 10px;
 }
 
 #addNewPage {
-    height: 33px;
-    bottom: 3px;
+    height: 24px;
+    bottom: 0px;
+    border: 1px solid #fff;
+    border-radius: 34px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 11px;
 }
 
 .createRadioCPreview {
@@ -6280,6 +6285,7 @@ input[type=checkbox] {
     position: relative;
     background-color: transparent;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 #pageBackbutton:before {
@@ -6290,16 +6296,33 @@ input[type=checkbox] {
 
 #pageBackbutton p {
     text-align: center;
-    width: 100px;
+    width: 50px;
     color: #fff;
     display: inline-block;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 47px;
 }
+
+#pagebackbutton:after {
+    content: '|';
+    color: #FFF;
+    display: inline-block;
+}
+
 
 #pageForwardbutton {
     display: inline-block;
     position: relative;
     background-color: transparent;
     cursor: pointer;
+    text-transform: uppercase;
+}
+
+#pageforwardbutton:before {
+    content: '|';
+    color: #FFF;
+    display: inline-block;
 }
 
 #pageForwardbutton:after {
@@ -6309,10 +6332,13 @@ input[type=checkbox] {
 }
 
 #pageForwardbutton p {
-    width: 100px;
     text-align: center;
+    width: 50px;
     color: #fff;
     display: inline-block;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 47px;
 }
 
 input.settingscheckbox {
