@@ -45,7 +45,7 @@ h4 {
 }
 
 
-#ntgtHolder{
+#ntgtHolder {
 	position: fixed;
 	z-index:50;
 	text-align: center;
@@ -6347,7 +6347,7 @@ input[type=checkbox] {
 
 .settingsTextHolder{
     margin-top:10px;
-
+}
 
 input.settingscheckbox {
     vertical-align: middle;
