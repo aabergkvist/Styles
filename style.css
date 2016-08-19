@@ -6062,7 +6062,7 @@ img.changeMultipleChoiceQIcon {
     position: initial;
     width: 100%;
     top: 25px;
-    height: 100px;
+    height: 40px;
     background-color: #f2f5f8;
     margin-bottom: 10px;
 }
@@ -6333,7 +6333,7 @@ input[type=checkbox] {
 
 #pageForwardbutton p {
     text-align: center;
-    width: 50px;
+    width: 81px;
     color: #fff;
     display: inline-block;
     padding-right: 0px;
