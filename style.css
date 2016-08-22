@@ -6125,7 +6125,7 @@ img.changeMultipleChoiceQIcon {
 }
 
 .pageTitleParagraph {
-    font-size: 24px;
+    font-size: 15px;
     margin: 0px auto 12px;
     padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
@@ -6135,7 +6135,7 @@ img.changeMultipleChoiceQIcon {
 }
 
 .pageDescriptionParagraph {
-    font-size: 14px;
+    font-size: 13px;
     margin: 3px auto;
     border-bottom: 1px dotted #999;
     width: 50%;
