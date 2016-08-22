@@ -865,8 +865,6 @@ li.edit-li {
     -moz-border-radius: 5px 5px 0 0;
     -webkit-border-radius:  5px 5px 0 0;
     border-radius:  5px 5px 0 0;
-    padding: 2px 2px 0 2px;
-    margin: -5px -5px 5px -5px;
     display: none;
     z-index: 99999;
 }
@@ -6602,6 +6600,7 @@ input.settingscheckbox {
     background:#1795CA;
     opacity:0;
     width:1000px;
+	border: 1px solid white;
 }
 
 #pageTable{
@@ -6625,11 +6624,26 @@ input.settingscheckbox {
 .surveySettingsTab{
 	vertical-align:top;
 	text-align:center;
-	width: 33.12%;
-	border: 1px solid white;
+	width: 33.195%;
 	height:100%;
 	display: inline-block;
 	cursor:pointer;
+}
+
+#surveySettingsTab1{
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#surveySettingsTab2{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+#surveySettingsTab3{
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 .surveySettingsTab p{
@@ -6640,6 +6654,7 @@ input.settingscheckbox {
 .settingsContainer{
 	position:absolute;
 	width:100%;
+	border-top: 1px solid white;
 }
 
 .surveySettingsTab:hover{
@@ -6656,6 +6671,7 @@ input.settingscheckbox {
 
 .SurveySettingsOptionsTable{
 	width: 100%;
+	
 }
 
 .SurveySettingsOptionsTable td{
