@@ -6120,9 +6120,10 @@ img.changeMultipleChoiceQIcon {
     max-width: 80%;
     width: 40%;
     float: left;
-    text-align: center;
+    text-align: left;
     color: #000;
     background-color: transparent!important;
+    display: inline-grid;
 }
 
 .pageTitleParagraph {
@@ -6138,10 +6139,9 @@ img.changeMultipleChoiceQIcon {
 .pageDescriptionParagraph {
     font-size: 14px;
     margin: 3px auto;
-    border-bottom: 1px dotted #999;
     width: 50%;
 	cursor: pointer;
-    float: right;
+    float: left;
 }
 
 #navNetigateMenu {
