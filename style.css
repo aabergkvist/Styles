@@ -6157,6 +6157,10 @@ p.createHeaderOptionText:nth-child(1) {
     font-weight: bold!important;
 }
 
+.SurveySettingsOptionsTable > tbody:nth-child(1) {
+    padding: 20px;
+}
+
 .newQuestionArrow {
     height: 80px;
 }
@@ -6465,7 +6469,7 @@ input.settingscheckbox {
 }
 
 #logotd {
-    width: 6%;
+    width: 9%;
     padding: 0px;
 }
 
