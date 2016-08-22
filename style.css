@@ -614,6 +614,9 @@ div.meta-dashboard-holder {
 header {
     height: 80px;
     position: relative;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
 }
 
     header img.header-icon {
@@ -5503,7 +5506,10 @@ background-color: #fff;
 #pagesDiv {
     width: 100%;
     height: 47px;
-    background-color: #2c3e50;
+    background-color: #1795ca;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
     
 }
 
@@ -6151,7 +6157,7 @@ img.changeMultipleChoiceQIcon {
 
 #navNetigateMenuHolder {
     width:100%;
-    background-color: #1795CA;
+    background-color: #2c3e50;
     height: 40px;   
 }
 
@@ -6614,6 +6620,7 @@ input.settingscheckbox {
 
 #surveySettingsHeader{
 	height:10%;
+    border-bottom: 1px solid #fff;
 }
 
 .surveySettingsTab{
@@ -6626,19 +6633,19 @@ input.settingscheckbox {
 }
 
 #surveySettingsTab1{
-
-	border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #surveySettingsTab2{
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-	border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #surveySettingsTab3{
-
-	border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .surveySettingsTab p{
@@ -6652,6 +6659,7 @@ input.settingscheckbox {
 	position:absolute;
 	width:100%;
 	margin-top: 1px;
+    border-top: 1px solid white;
 }
 
 .surveySettingsTab:hover{
@@ -6669,7 +6677,11 @@ input.settingscheckbox {
 
 .SurveySettingsOptionsTable{
 	width: 100%;
+<<<<<<< Updated upstream
 	
+=======
+    margin: 25px;
+>>>>>>> Stashed changes
 }
 
 .SurveySettingsOptionsTable td{
