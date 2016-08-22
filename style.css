@@ -614,9 +614,6 @@ div.meta-dashboard-holder {
 header {
     height: 80px;
     position: relative;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
 }
 
     header img.header-icon {
@@ -5506,10 +5503,8 @@ background-color: #fff;
 #pagesDiv {
     width: 100%;
     height: 47px;
-    background-color: #1795CA;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    background-color: #2c3e50;
+    
 }
 
 .liPages {
@@ -6118,10 +6113,9 @@ img.changeMultipleChoiceQIcon {
     max-width: 80%;
     width: 40%;
     float: left;
-    text-align: left;
+    text-align: center;
     color: #000;
     background-color: transparent!important;
-    display: inline-grid;
 }
 
 .pageTitleParagraph {
@@ -6137,9 +6131,10 @@ img.changeMultipleChoiceQIcon {
 .pageDescriptionParagraph {
     font-size: 14px;
     margin: 3px auto;
+    border-bottom: 1px dotted #999;
     width: 50%;
 	cursor: pointer;
-    float: left;
+    float: right;
 }
 
 #navNetigateMenu {
@@ -6156,7 +6151,7 @@ img.changeMultipleChoiceQIcon {
 
 #navNetigateMenuHolder {
     width:100%;
-    background-color: #2c3e50;
+    background-color: #1795CA;
     height: 40px;   
 }
 
@@ -6624,14 +6619,14 @@ input.settingscheckbox {
 .surveySettingsTab{
 	vertical-align:top;
 	text-align:center;
-	width: 33.195%;
+	width: 33.25%;
 	height:100%;
 	display: inline-block;
 	cursor:pointer;
 }
 
 #surveySettingsTab1{
-	border-right: 1px solid white;
+
 	border-bottom: 1px solid white;
 }
 
@@ -6642,7 +6637,7 @@ input.settingscheckbox {
 }
 
 #surveySettingsTab3{
-	border-left: 1px solid white;
+
 	border-bottom: 1px solid white;
 }
 
@@ -6651,10 +6646,12 @@ input.settingscheckbox {
 	
 }
 
+
+
 .settingsContainer{
 	position:absolute;
 	width:100%;
-	border-top: 1px solid white;
+	margin-top: 1px;
 }
 
 .surveySettingsTab:hover{
@@ -6663,6 +6660,7 @@ input.settingscheckbox {
 
 .activeSurveySettingsTab{
 	background-color:#2c3e50;
+	border-bottom: #2c3e50 1px solid !important
 }
 
 .activeSurveySettingsTab:hover{
