@@ -614,6 +614,9 @@ div.meta-dashboard-holder {
 header {
     height: 80px;
     position: relative;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
 }
 
     header img.header-icon {
@@ -5503,7 +5506,10 @@ background-color: #fff;
 #pagesDiv {
     width: 100%;
     height: 47px;
-    background-color: #2c3e50;
+    background-color: #1795ca;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.4);
     
 }
 
@@ -6111,30 +6117,31 @@ img.changeMultipleChoiceQIcon {
 .pageTitle {
     min-height: 100px;
     max-width: 80%;
-    width: 40%;
+    width: 47%;
     float: left;
-    text-align: center;
+    text-align: left;
     color: #000;
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 
 .pageTitleParagraph {
-    font-size: 24px;
+    font-size: 15px;
     margin: 0px auto 12px;
     padding: 5px 0 10px 0;
     border-bottom: 1px dotted #999;
 	cursor: pointer;
 	line-height: 28px;
     float: left;
+    width: 60%;
 }
 
 .pageDescriptionParagraph {
-    font-size: 14px;
+    font-size: 13px;
     margin: 3px auto;
     border-bottom: 1px dotted #999;
-    width: 50%;
+    width: 80%;
 	cursor: pointer;
-    float: right;
+    float: left;
 }
 
 #navNetigateMenu {
@@ -6142,7 +6149,16 @@ img.changeMultipleChoiceQIcon {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    text-align: center;    
+    text-align: center; 
+    font-size: 11px;   
+}
+
+p.createHeaderOptionText:nth-child(1) {
+    font-weight: bold!important;
+}
+
+.SurveySettingsOptionsTable > tbody:nth-child(1) {
+    padding: 20px;
 }
 
 .newQuestionArrow {
@@ -6151,7 +6167,7 @@ img.changeMultipleChoiceQIcon {
 
 #navNetigateMenuHolder {
     width:100%;
-    background-color: #1795CA;
+    background-color: #2c3e50;
     height: 40px;   
 }
 
@@ -6453,7 +6469,7 @@ input.settingscheckbox {
 }
 
 #logotd {
-    width: 6%;
+    width: 9%;
     padding: 0px;
 }
 
@@ -6596,6 +6612,7 @@ input.settingscheckbox {
     opacity:0;
     width:1000px;
 	border: 1px solid white;
+	overflow:hidden;
 }
 
 #pageTable{
@@ -6614,6 +6631,9 @@ input.settingscheckbox {
 
 #surveySettingsHeader{
 	height:10%;
+    border-bottom: 1px solid #fff;
+	z-index:2;
+	position:relative;
 }
 
 .surveySettingsTab{
@@ -6623,22 +6643,23 @@ input.settingscheckbox {
 	height:100%;
 	display: inline-block;
 	cursor:pointer;
+	background-color: #1795CA;
 }
 
 #surveySettingsTab1{
-
-	border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #surveySettingsTab2{
-	border-left: 1px solid white;
-	border-right: 1px solid white;
-	border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 #surveySettingsTab3{
-
-	border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .surveySettingsTab p{
@@ -6652,6 +6673,8 @@ input.settingscheckbox {
 	position:absolute;
 	width:100%;
 	margin-top: 1px;
+	height:500px;
+	top:-451px;
 }
 
 .surveySettingsTab:hover{
@@ -6669,7 +6692,11 @@ input.settingscheckbox {
 
 .SurveySettingsOptionsTable{
 	width: 100%;
+<<<<<<< Updated upstream
 	
+=======
+    margin: 25px;
+>>>>>>> Stashed changes
 }
 
 .SurveySettingsOptionsTable td{
