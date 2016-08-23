@@ -6632,11 +6632,8 @@ input.settingscheckbox {
 #surveySettingsHeader{
 	height:10%;
     border-bottom: 1px solid #fff;
-<<<<<<< HEAD
 	z-index:2;
 	position:relative;
-=======
->>>>>>> origin/master
 }
 
 .surveySettingsTab{
@@ -6676,12 +6673,9 @@ input.settingscheckbox {
 	position:absolute;
 	width:100%;
 	margin-top: 1px;
-<<<<<<< HEAD
 	height:500px;
 	top:-451px;
-=======
     border-top: 1px solid white;
->>>>>>> origin/master
 }
 
 .surveySettingsTab:hover{
@@ -6699,11 +6693,7 @@ input.settingscheckbox {
 
 .SurveySettingsOptionsTable{
 	width: 100%;
-<<<<<<< Updated upstream
-	
-=======
     margin: 25px;
->>>>>>> Stashed changes
 }
 
 .SurveySettingsOptionsTable td{
