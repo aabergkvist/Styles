@@ -6876,6 +6876,35 @@ input.settingscheckbox {
 	vertical-align:bottom;
 }
 
+.questionCancelButton{
+	display:inline-block;
+	background-color:#1795CA;
+	padding:5px;
+	width:120px;
+}
+
+.questionSaveButton{
+	display:inline-block;
+	background-color:#1795CA;
+	padding:5px;
+	margin-right: 15px;
+	width:120px;
+	cursor: pointer;
+	
+}
+
+.saveCancelContainer{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	cursor: pointer;
+}
+
+.saveCancelContainer p{
+	color:white;
+	text-align:center;
+}
+
 /* Foundation Grid System */
 
 .row {
