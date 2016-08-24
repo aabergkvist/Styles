@@ -668,7 +668,8 @@ div.logo {
     min-height: 125px;
     margin: 0;
     position: relative;
-    overflow: visible;
+
+   
 }
 
 .right a img {
@@ -2668,7 +2669,8 @@ line-height: 36px;
 }
 
 .item_left_holder {
-    float: left;
+    
+	
     clear: none;
     overflow: visible;
     width: 98%!important;
@@ -2683,7 +2685,7 @@ line-height: 36px;
     width: 100%;
    
     text-align: left;
-    float: left;
+   
     display: inline-block;
 }
 
