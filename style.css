@@ -859,7 +859,10 @@ li.edit-li {
     border-radius: 4px;
     display: table;
     color: #666;
+	border: 1px solid black;
 }
+
+
 
 #toolbox {
     background: #eee;
@@ -6727,7 +6730,7 @@ input.settingscheckbox {
 }
 
 .SurveySettingsOptionsTable{
-	width: 100%;
+	width: calc(100% - 50px);
     margin: 25px;
 }
 
@@ -6915,6 +6918,11 @@ input.settingscheckbox {
 .saveCancelContainer p{
 	color:white;
 	text-align:center;
+}
+
+
+.labelHolder{
+	text-align: center;
 }
 
 /* Foundation Grid System */
