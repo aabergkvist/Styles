@@ -6914,8 +6914,8 @@ input.settingscheckbox {
     transition: background-color 500ms ease-out 1s;
 }
 
-.questionSaveButton,
-.questionCancelButton {
+.questionSaveButton:hover,
+.questionCancelButton:hover {
     background-color: #2c3e50;
 }
 
