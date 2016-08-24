@@ -6163,7 +6163,7 @@ img.changeMultipleChoiceQIcon {
     font-size: 15px;
     margin: 0px auto 12px;
     padding: 5px 0 10px 0;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px solid #999;
 	cursor: pointer;
 	line-height: 28px;
     float: left;
@@ -6173,7 +6173,7 @@ img.changeMultipleChoiceQIcon {
 .pageDescriptionParagraph {
     font-size: 13px;
     margin: 3px auto;
-    border-bottom: 1px dotted #999;
+    border-bottom: none;
     width: 80%;
 	cursor: pointer;
     float: left;
