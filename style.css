@@ -6894,6 +6894,10 @@ input.settingscheckbox {
     border: 1px solid #fff;
 	padding:5px;
 	width:120px;
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
 }
 
 .questionSaveButton{
@@ -6904,6 +6908,10 @@ input.settingscheckbox {
 	margin-right: 15px;
 	width:120px;
 	cursor: pointer;
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
 }
 
 .questionSaveButton,
