@@ -893,6 +893,16 @@ li.edit-li {
     background-size: contain;
 }
 
+.matrixhandle{
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.matrixTable{
+	margin-left:20px;
+}
+
 ui-sortable-disabled .handle {
     background-image: none!important;
 }
@@ -1525,9 +1535,6 @@ ui-sortable-disabled .handle {
     background: transparent;
 }
 
-.matrix-row input {
-    margin-left: -22px!important;
-}
 
 .htd {
     position: relative;
@@ -6399,6 +6406,7 @@ input.settingscheckbox {
 .matrixDelRowDiv {
     width: 20px;
     height: 20px;
+	display: inline-block;
 }
 
 .matrixDelRowDiv img {
@@ -6431,6 +6439,7 @@ input.settingscheckbox {
 
 .addColumnButton {
     vertical-align:top;
+	width:130px;
 }
 
 .moreSettingsImage {
@@ -6777,6 +6786,7 @@ input.settingscheckbox {
 .questionSettingsHeader {
 	height:50px;
 	border-bottom: 1px white solid;
+	background-color:#1795ca;
 }
 .multipleChoiceAnswersTable{
 	width:100%;
