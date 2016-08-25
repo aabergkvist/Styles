@@ -47,7 +47,7 @@ h4 {
 
 #ntgtHolder {
 	position: fixed;
-	z-index:50;
+	z-index:900;
 	text-align: center;
 	background-color:white;
 	width:100%;
@@ -4460,8 +4460,7 @@ form {
 
 select {
     margin-right: 4px!important;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  
     text-indent: 1px;
     text-overflow: '';
 }
@@ -6952,6 +6951,12 @@ input.settingscheckbox {
 	margin: 5px;
 	color: white;
 	text-align:center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -6990,6 +6995,9 @@ input.settingscheckbox {
 	cursor:pointer;
 }
 
+.previewDropdown2{
+	min-width: 200px;
+}
 
 /* Foundation Grid System */
 
