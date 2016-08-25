@@ -6925,6 +6925,11 @@ input.settingscheckbox {
 	text-align: center;
 }
 
+
+.multipleChoiceInputTable{
+	width: 100%;
+}
+
 /* Foundation Grid System */
 
 .row {
