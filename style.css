@@ -10120,6 +10120,7 @@ input[type="text"].pageTitleTextbox{
 .surveyPrioListHeader{
 	height:40px;
   border-bottom: 2px solid #2c3e50;
+  border-width: 300px;
 }
 
 #surveyPrioListTable{
@@ -10130,7 +10131,6 @@ input[type="text"].pageTitleTextbox{
 	font-size: 18px;
 	font-weight: bold;
 	margin:0px;
-
 	margin-bottom: 8px;
 }
 
@@ -10207,8 +10207,8 @@ input[type="text"].pageTitleTextbox{
 }
 
 .SurveyPrioListHeaderCaption{
-	color: white;
-	font-size:16px;
+	color: #2c3e50;
+	font-size:26px;
 	display: inline-block;
 	font-weight: bold;
 	margin-left:15px;
