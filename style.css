@@ -10129,7 +10129,6 @@ input[type="text"].pageTitleTextbox{
 
 .surveyCategoryHeaderText{
 	font-size: 18px;
-	font-weight: bold;
 	margin:0px;
 	margin-bottom: 8px;
 }
@@ -10166,6 +10165,7 @@ input[type="text"].pageTitleTextbox{
 	width: 25px;
 	height: 25px;
 	display: inline-block;
+  border-radius: 50px;
 }
 
 .indicatorActive{
